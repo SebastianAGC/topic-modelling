@@ -3,9 +3,13 @@ Topic modelling
 
 1. The data used was extracted with a scrapper from Wikipedia featured articles.
 
-2. Number of topic: 10 | Alpha = 'auto' | Beta = 1
+2. Hyperparameters used:
 
-3. Topic interpretation:
+- Number of topic: 10 
+- Alpha = 'auto' 
+- Beta = 1
+
+5. Topic interpretation:
 
 (0,
   '0.018*"hawaiian" + 0.005*"combatant" + 0.005*"native_hawaiian" + '
@@ -77,4 +81,47 @@ Topic: Celestial Bodies
 
 Topic: Sports
 
-5. ¿Qué arroja su modelo sobre textos cuyo contenido les es conocido?
+5. We chose game-development related articles for the last exercise and our topic model gave us the following topics.
+
+Hyperparameters:
+
+- Number of topics: 5
+- Alpha: 'auto'
+- Beta: 1
+
+ (0,
+  '0.027*"game" + 0.013*"computer" + 0.013*"console" + 0.013*"video_game" + '
+  '0.012*"development" + 0.012*"develop" + 0.010*"first" + 0.010*"developer" + '
+  '0.009*"produce" + 0.009*"usually"')
+
+Topic: Game Development
+
+ (1,
+  '0.025*"engine" + 0.022*"game" + 0.010*"design" + 0.010*"technology" + '
+  '0.010*"first" + 0.010*"code" + 0.008*"write" + 0.008*"software" + '
+  '0.008*"support" + 0.007*"base"')
+
+Topic: Software Development
+
+ (2,
+  '0.033*"model" + 0.018*"render" + 0.018*"dimensional" + 0.015*"computer" + '
+  '0.015*"graphic" + 0.015*"image" + 0.015*"display" + 0.011*"technique" + '
+  '0.011*"datum" + 0.011*"representation"')
+
+Topic: Computer Graphics
+
+ (3,
+  '0.028*"game" + 0.016*"computer" + 0.015*"console" + 0.012*"animation" + '
+  '0.010*"engine" + 0.010*"video_game" + 0.010*"use" + 0.009*"base" + '
+  '0.009*"image" + 0.008*"industry"')
+
+Topic: Game Development
+
+ (4,
+  '0.022*"game" + 0.022*"cost" + 0.014*"estimate" + 0.010*"gameplay" + '
+  '0.010*"budget" + 0.008*"also" + 0.008*"development" + 0.008*"video_game" + '
+  '0.008*"console" + 0.008*"high"')
+ 
+Topic: Game Industry
+
+As we can see in the output topics, all topics are related to the theme we chose to give as input.
